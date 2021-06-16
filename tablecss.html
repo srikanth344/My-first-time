@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table in css</title>
+    <style>
+        tr:nth-child(odd){
+            background-color:yellowgreen;
+        }
+        tr:nth-child(even){
+            background-color:#eee;
+        }
+        tr:nth-child(4){
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Personal details</legend>
+    <table border=3 cellspacing=2 cellpadding=1>
+        <tr bgcolor="green">
+          <th>firstname</th>
+          <th>lastname</th>
+          <th>rollno</th>
+        </tr>
+        <tbody>
+            <tr bgcolor="blue">
+                <td>sujatha</td>
+                <td>palakala</td>
+                <td>12r12b0367</td>
+            </tr>
+            <tr bgcolor="pink">
+                <td>srikanth</td>
+                <td>palakala</td>
+                <td>15s51a0429</td>
+            </tr>
+            <tr bgcolor="white">
+                <td>palakala</td>
+                <td>pallavi</td>
+                <td>13s31y0329</td>
+            </tr>
+            <tr bgcolor="orange">
+                <td>palakala</td>
+                <td>pochireddy</td>
+                <td>13s31y0329</td>
+            </tr>
+
+        </tbody>
+        <caption align= "top">TABLE 1.0</caption>
+    </table>
+    </fieldset>
+</body>
+</html>

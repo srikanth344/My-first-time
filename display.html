@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        .team{
+            display: flex;
+            -webkit-animation-duration: 15s;
+            
+        }
+        .team-member{
+            border: 1px solid blue;
+            margin: 5px;
+            padding: 5px;
+            background-color:grey;
+            color: green;
+        }
+        p{
+            line-height: 30px;
+        }
+        .heading{
+            color:cyan;
+            font-size:12px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="team">
+        <div class="team-member animate__animated animate__backInLeft">
+            <h1 class="heading" >Donet Developer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptate? Excepturi quisquam, molestias autem saepe deleniti consequuntur cumque magnam eveniet!</p>
+        </div>
+        <div class="team-member animate__animated animate__backInDown">
+            <h2 class="heading">Android Developer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi provident iure maiores, doloremque et magnam saepe laborum minima fugiat nesciunt!</p>
+        </div>
+        <div class="team-member animate__animated animate__backInRight">
+            <h2 class="heading">UI/UX Developer</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo quisquam vitae reiciendis deserunt nostrum, placeat nam numquam perspiciatis aliquid voluptas.</p>
+        </div>
+    </div>
+    
+</body>
+</html>

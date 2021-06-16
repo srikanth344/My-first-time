@@ -1,0 +1,10 @@
+<video>
+   <source src="v1.webm">
+</video>
+
+<video width = 400 controls poster="img1.jpg">
+        <source src="v1.webm">
+</video>
+    <audio controls>
+        <source src="v1.webm">
+    </audio>

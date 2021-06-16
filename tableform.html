@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table forms</title>
+    <link rel="stylesheet" href="bar.css">
+</head>
+<body>
+    <ul>
+        <li>
+            <a href="navbar.html">Home</a>
+        </li>
+        <li>
+            <a href="about.html">About</a>
+        </li>
+        <li>
+            <a class="active" href="tableform.html">ContactUs</a>
+        </li>
+        <li>
+            <a href="contact.html">Gallery</a>
+        </li>
+    </ul>
+    <fieldset>
+        <legend align="left">Table Forms</legend>
+        <img src="/img1.jpg" alt="" width="400">
+    <table align="right" bgcolor="Green" cellspacing=6 cellpadding=6>
+        <form>
+            <tr>
+                <td><label for="">Username</label></td>
+                <td><input type="text" placeholder="Enter Ur name" name="username" id="" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Password</label></td>
+                <td><input type="password" placeholder="Enter ur password" name="password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[@#$&]).{8}"id="" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Email</label></td>
+                <td><input type="email" placeholder="Enter ur email id" name="email" id="" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Mobile no</label></td>
+                <td><input type="Mobile no" placeholder="Enter ur no" name= "mobile no" pattern="[0-9]{10}" required></td>
+            </tr>
+            <tr>
+                <td><button><input type="submit" value="login"></button></td>
+            </tr>
+            <tr>
+                <td><label for="">Gender</label></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="n1" id="">
+                    <label for="">Male</label>
+                    <input type="radio" name="n1" id="">
+                    <label for="">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">DOB</label></td>
+                <td><input type="date" name="date" id=""></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td><label for="">Remember me</label></td>
+            </tr>
+        </form>
+    </table>
+    </fieldset>
+    
+</body>
+</html>
